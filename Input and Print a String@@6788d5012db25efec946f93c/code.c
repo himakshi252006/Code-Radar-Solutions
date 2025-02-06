@@ -1,11 +1,7 @@
-int main()
-{
- 
-    char str[100]
-    printf("String: ");
- 
-    // %s is used to print a string
-    printf("\"%s\"", str);
- 
+#include <stdio.h>
+int main(){
+    char a[100];
+    scanf(" %s",&a)
+    printf("You entered: %s", a);
     return 0;
 }
