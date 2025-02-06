@@ -1,7 +1,8 @@
 #include <stdio.h>    
 int main()
 { 
-    // Displays the string inside quotations
-    printf("0");
+    int a;
+    scanf("%f",&a);
+    printf("You entered: %.2f\n", a);
     return 0;
 }
