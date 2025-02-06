@@ -1,7 +1,7 @@
 int main()
 {
  
-    char str[13] = "GeeksforGeeks";
+    char str[100]
     printf("String: ");
  
     // %s is used to print a string
