@@ -10,7 +10,7 @@ void rotateArray(int arr[], int N, int k) {
         arr[i] = arr[i + k];
     }
     for (int i = 0; i < k; i++) {
-        arr[n - k + i] = temp[i];
+        arr[N - k + i] = temp[i];
     }
 }
 int main() {
@@ -27,7 +27,7 @@ int main() {
     printf("Enter the number of positions to rotate: ");
     scanf("%d", &k);
     
-    rotateArray(arr, ,N k);
+    rotateArray(arr,N, k);
     
     printf("Rotated array: ");
     for (int i = 0; i < N; i++) {
