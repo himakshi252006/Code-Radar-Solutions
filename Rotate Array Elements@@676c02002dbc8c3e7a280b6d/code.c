@@ -27,7 +27,7 @@ int main() {
     rotateArray(arr,N, k);
     
     for (int i = 0; i < N; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\N", arr[i]);
     }
     printf("\n");
     
