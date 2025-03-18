@@ -20,10 +20,10 @@ int main() {
     
     for (int i = 0; i < N; i++) 
     {
-        scanf("%d", &arr[i]);
+        scanf("%d\n", &arr[i]);
     }
     
-    scanf("%d", &k);
+    scanf("%d\n", &k);
     
     rotateArray(arr,N, k);
     
