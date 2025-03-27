@@ -6,22 +6,15 @@
 
 int main()
 {
-    int i, j, rows;
-
-    /* Input number of rows from user */
+    int n;
     printf("Enter number of rows : ");
-    scanf("%d", &rows);
-
-    /* Iterate through rows */
-    for(i=1; i<=rows; i++)
+    scanf("%d", &n);
+    for(i=1; i<=n; i++)
     {
-        /* Iterate through columns */
-        for(j=i; j<=rows; j++)
+        for(j=i; j<=n; j++)
         {
             printf("*");
         }
-       
-        /* Move to the next line */
         printf("\n");
     }
 
